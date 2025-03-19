@@ -1,0 +1,14 @@
+public class C {
+    void imprimirSaludo(A persona) {
+         /**
+             * verifica la edad de lapersona 
+             */
+        if (A.edad < 18) {  
+            System.out.println("Hola, joven " + persona.nombre); /**
+            si es menos de 18 años imprime un saludo para jóvenes */
+        } else {
+            System.out.println("Hola, señor/a " + persona.nombre); /**
+            si es mayor de 18 o igual imprime un saludo para un señor/a */
+        }
+    }
+}
